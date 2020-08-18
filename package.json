@@ -12,9 +12,7 @@
         }
     },
     "lint-staged": {
-        "*.{ts,tsx,js}": [
-            "eslint --config .eslintrc.js"
-        ]
+        "*.{ts,tsx,js}":  "eslint --config .eslintrc.js"
     },
     "repository": {
         "type": "git",
@@ -41,8 +39,5 @@
         "pre-commit": "^1.2.2",
         "prettier": "^2.0.5",
         "typescript": "^3.9.7"
-    },
-    "pre-commit": [
-        
-    ]
+    }
 }

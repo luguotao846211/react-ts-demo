@@ -4,7 +4,7 @@
     "description": "react-ts-demo",
     "main": "index.js",
     "scripts": {
-        "pre-commit": "eslint -c .eslintrc.js --ext .ts,.tsx,.js src"
+        "lint-eslint": "eslint -c .eslintrc.js --ext .ts,.tsx,.js src"
     },
     "husky": {
         "hooks": {
@@ -39,5 +39,7 @@
         "pre-commit": "^1.2.2",
         "prettier": "^2.0.5",
         "typescript": "^3.9.7"
-    }
+    },
+    "pre-commit": [
+    ]
 }

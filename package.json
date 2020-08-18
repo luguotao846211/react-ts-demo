@@ -6,6 +6,10 @@
     "scripts": {
         "lint-eslint": "eslint -c .eslintrc.js --ext .ts,.tsx,.js src"
     },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/luguotao846211/react-ts-demo.git"
+    },
     "keywords": [],
     "author": "",
     "license": "ISC",

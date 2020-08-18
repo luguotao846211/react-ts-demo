@@ -2,6 +2,6 @@
 //     console.log(a + b)
 //     return a + b
 //   }
-//   console.log("123")
+  console.log("123")
   
 //   export default add

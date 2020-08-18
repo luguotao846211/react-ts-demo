@@ -1,0 +1,15 @@
+node_modules
+build
+dist
+coverage
+versions
+npm-debug.log
+yarn-error.log
+.sass-cache/
+.vscode
+.happypack
+.idea
+.history
+.happypack
+.DS_Store
+.cache-loader

@@ -8,11 +8,10 @@
     },
     "husky": {
         "hooks": {
-            "pre-commit": "lint-staged"
         }
     },
     "lint-staged": {
-        "*.{ts,tsx,js}":  "eslint --config .eslintrc.js"
+        "*": "eslint --config .eslintrc.js"
     },
     "repository": {
         "type": "git",
@@ -36,10 +35,9 @@
         "eslint-plugin-react-hooks": "^4.1.0",
         "husky": "^4.2.5",
         "lint-staged": "^10.2.11",
-        "pre-commit": "^1.2.2",
         "prettier": "^2.0.5",
         "typescript": "^3.9.7"
     },
-    "pre-commit": [
-    ]
+    "pre-commit": [],
+    "dependencies": {}
 }

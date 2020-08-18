@@ -6,6 +6,16 @@
     "scripts": {
         "lint-eslint": "eslint -c .eslintrc.js --ext .ts,.tsx,.js src"
     },
+    "husky": {
+        "hooks": {
+            "pre-commit": "lint-staged"
+        }
+    },
+    "lint-staged": {
+        "*.{ts,tsx,js}": [
+            "eslint --config .eslintrc.js"
+        ]
+    },
     "repository": {
         "type": "git",
         "url": "git+https://github.com/luguotao846211/react-ts-demo.git"

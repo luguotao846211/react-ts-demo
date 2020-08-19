@@ -1,0 +1,5 @@
+#root{
+    color: red;
+    transition-delay: 1ms;
+    display: flex;
+}
